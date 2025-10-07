@@ -4,8 +4,8 @@ Before you get started, type
 
     pwd
 
-and make sure that the output ends with `tfcb_2023/lectures/lecture04`.
-If not, go back to [the tutorial instructions](https://github.com/FredHutch/tfcb_2021/tree/main/lectures/lecture03#tutorial).
+and make sure that the output ends with `tfcb_2025/lectures/lecture04`.
+If not, go back to [the tutorial instructions]([https://github.com/FredHutch/tfcb_2021/tree/main/lectures/lecture03#tutorial](https://github.com/FredHutch/tfcb_2025/blob/main/software/README.md#testing-software-installation)).
 Don't hesitate to ask questions if you get stuck!
 
 
@@ -124,19 +124,6 @@ For this sequence file, lines containing header information start with a '\/'. I
     
     grep 'word' filename
     
-
-## `man`: the built-in manual
-
-For more in depth help see the command `man`, which is short for "manual."
-The argument to `man` is the command you want to see documentation for.
-
-Try
-
-    man man
-
-to learn about the command `man`.
-
-Look at the overall structure of the document. What does the top describe? What about the rest?
 
 
 ## On your own
