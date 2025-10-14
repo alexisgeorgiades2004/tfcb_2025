@@ -13,6 +13,7 @@ Complete the interactive tutorial.
 
 _Did you hit any points of frustration, and if so, how could we improve the material to avoid that frustration?_
 
+I ran into frustration with writing loops and scripts in the terminal, but this wasn't the material's fault. Overall, I thought the material/tutorial was useful in working through what we had learned in class.
 
 ## Problem 1
 
@@ -52,8 +53,16 @@ sequence.gb<br>
 slides<br>
 vader.txt<br>
 
-_Paste your SCRIPT here (not the output)_
+### Script answer
 
+mkdir homework02
+
+echo "my username is $USER" > question01.txt
+echo "my home directory is $HOME" >> question01.txt
+echo "The contents of the tfcb_2025/lectures/lecture04/ directory are:" >> question01.txt
+ls /workspaces/tfcb_2025/lectures/lecture04 >> question01.txt
+
+mv question01.txt homework02/
 
 ## Problem 2
 
@@ -75,6 +84,17 @@ tfcb_2023/homeworks/homework02/list.txt
 
 You can make the contents of those files whatever you want (hint: slide 9... )
 
-_Paste your SCRIPT here (not the output)_
+### Script Answer
+
+mkdir -p homework02/question02
+
+for i in {1..25};
+
+do
+
+num=$(sed -n "${i}p" list.txt)
+echo "file number $i" > "homework02/question02/file${num}.txt"\
+
+done
 
 
