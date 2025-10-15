@@ -86,15 +86,14 @@ You can make the contents of those files whatever you want (hint: slide 9... )
 
 ### Script Answer
 
-mkdir -p homework02/question02
+- mkdir -p homework02/question02
 
-for i in {1..25};
+- for i in {1..25};
 
-do
+- do
 
-num=$(sed -n "${i}p" list.txt)
-echo "file number $i" > "homework02/question02/file${num}.txt"\
+- num=$(sed -n "${i}p" list.txt)
 
-done
+- echo "file number $i" > "homework02/question02/file${num}.txt"\
 
-
+- done 
