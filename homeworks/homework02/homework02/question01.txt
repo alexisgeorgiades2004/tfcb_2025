@@ -1,5 +1,5 @@
 my username is 
-my home directory is /root
+my home directory is /root The contents of the tfcb_2025/lectures/lecture04/ directory are:
 01-first-steps.md
 02-directories
 03-redirection

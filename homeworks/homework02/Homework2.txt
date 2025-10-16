@@ -55,14 +55,14 @@ vader.txt<br>
 
 ### Script answer
 
-- mkdir homework02
+mkdir homework02
 
-- echo "my username is $USER" > question01.txt
-- echo "my home directory is $HOME" >> question01.txt
-- echo "The contents of the tfcb_2025/lectures/lecture04/ directory are:" >> question01.txt
-- ls /workspaces/tfcb_2025/lectures/lecture04 >> question01.txt
+echo "my username is $USER" > question01.txt
+echo "my home directory is $HOME" >> question01.txt
+echo "The contents of the tfcb_2025/lectures/lecture04/ directory are:" >> question01.txt
+ls /workspaces/tfcb_2025/lectures/lecture04 >> question01.txt
 
-- mv question01.txt homework02/
+mv question01.txt homework02/
 
 ## Problem 2
 
@@ -86,7 +86,7 @@ You can make the contents of those files whatever you want (hint: slide 9... )
 
 ### Script Answer
 
-- mkdir -p question02
+- mkdir -p homework02/question02
 
 - for i in {1..25};
 
@@ -94,6 +94,6 @@ You can make the contents of those files whatever you want (hint: slide 9... )
 
 - num=$(sed -n "${i}p" list.txt)
 
-- echo "file number $i" > "question02/file${num}.txt"\
+- echo "file number $i" > "homework02/question02/file${num}.txt"\
 
 - done 
